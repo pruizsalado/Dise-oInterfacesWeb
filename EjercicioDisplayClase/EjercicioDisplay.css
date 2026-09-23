@@ -58,7 +58,11 @@ img {
 }
 
 #nuevo{
+    position: absolute;
+    left: 110px;
+    bottom: 130px;
+}
+
+#cajaNuevo {
     position: relative;
-    left: 50px;
-    margin-top: 0px;
 }
