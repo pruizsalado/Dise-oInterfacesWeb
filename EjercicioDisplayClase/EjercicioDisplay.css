@@ -18,12 +18,11 @@ body {
     border-top-style: solid;
     border-bottom-style: solid;
     box-sizing: content-box;
-    height: 70%;
 }
 
 header {
     border-bottom-style: solid;
-    height: 20%;
+    min-height: 20vh;
 }
 
 div {
@@ -40,17 +39,25 @@ div {
 article {
     text-align: center;
     padding: 3%;
+    min-height: 75vh;
 }
 
 footer {
     border-top-style: solid;
-    height: 10%;
+    min-height: 10vh;
 
 }
 
 #flecha {
-    position: absolute;
-    right: 5px;
+    position: relative;
+    left: 2000px;
+    margin: 0;
+    padding: 0;
+    bottom: 60px;
+}
+
+#fotoFlecha {
+    width: 30px;
 }
 
 img {
@@ -58,11 +65,36 @@ img {
 }
 
 #nuevo{
-    position: absolute;
-    left: 200px;
-    bottom: 350px;
+    position: relative;
+    left: 120px;
+    bottom: 30px;
+    margin-top: 0;
 }
 
 #cajaNuevo {
     position: relative;
+}
+
+#nota2 {
+    display: none;
+    border-style: hidden;
+}
+
+#imagenprincipal2 {
+    border-style: hidden;
+    position: relative;
+}
+
+#imagenprincipal2:hover #nota2 {
+    display: block;
+    position: absolute;
+    top: 50px;
+}
+
+#textonota2 {
+    display: none;
+}
+
+#nota2:hover #textonota2 {
+    display: block;
 }
