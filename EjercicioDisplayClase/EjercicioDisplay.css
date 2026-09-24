@@ -75,26 +75,26 @@ img {
     position: relative;
 }
 
-#nota2 {
+.notaescondida {
     display: none;
     border-style: hidden;
 }
 
-#imagenprincipal2 {
+.imagenprincipal {
     border-style: hidden;
     position: relative;
 }
 
-#imagenprincipal2:hover #nota2 {
+.imagenprincipal:hover .notaescondida {
     display: block;
     position: absolute;
     top: 50px;
 }
 
-#textonota2 {
+.textonota {
     display: none;
 }
 
-#nota2:hover #textonota2 {
+.notaescondida:hover .textonota {
     display: block;
 }
