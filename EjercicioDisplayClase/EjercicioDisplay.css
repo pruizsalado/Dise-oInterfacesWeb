@@ -54,13 +54,13 @@ footer {
 }
 
 img {
-    width: 40px;
+    width: 250px;
 }
 
 #nuevo{
     position: absolute;
-    left: 110px;
-    bottom: 130px;
+    left: 200px;
+    bottom: 350px;
 }
 
 #cajaNuevo {
